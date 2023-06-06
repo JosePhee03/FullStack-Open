@@ -1,0 +1,16 @@
+{
+  "name": "fullstack-open",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "workspaces": [
+    "notes-backend",
+    "notes-frontend"
+  ],
+  "scripts": {
+    "start": "pnpm run start --workspaces=notes-backend"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
