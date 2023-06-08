@@ -3,12 +3,12 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "workspaces": [
-    "notes-backend",
-    "notes-frontend"
-  ],
   "scripts": {
-    "start": "pnpm run start --workspaces=notes-backend"
+    "start": "pnpm --filter ./notes-backend start"
+  },
+  "devDependencies": {
+    "eslint": "^8.42.0",
+    "standard": "^17.1.0"
   },
   "keywords": [],
   "author": "",
